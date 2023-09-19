@@ -1,0 +1,14 @@
+/* 
+  File Name : style.css 
+  Student Name : Neel Patel
+  Student ID : 301404465
+  Date 18 September 2023  */
+ 
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}

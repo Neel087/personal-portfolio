@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./partials/header'); %>
+  <body>
+    <%- include('./partials/navbar'); %>
+
+    <h1 class="display-5 fw-bold lh-1 mb-3 text-center">Projects</h1>
+
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-top" src="/images/todolist.png">
+        <div class="card-body">
+          <h5 class="card-title">To-Do List App</h5>
+          <p class="card-text">Web app to keep trak of tasks to be done, marking tasks in progress, pending, on-hold or done.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="/images/expensetracker.png">
+        <div class="card-body">
+          <h5 class="card-title">Expense Tracker</h5>
+          <p class="card-text">Application to keep track of expenses, displaying expenses by category, month, keeping track of remaining budget.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="/images/personalblog.png">
+        <div class="card-body">
+          <h5 class="card-title">Personal Blog</h5>
+          <p class="card-text">Web app to write and publish personal blogs.</p>
+        </div>
+      </div>
+    </div>
+
+    <%- include('./partials/footer'); %>
+
+  </body>
+</html>

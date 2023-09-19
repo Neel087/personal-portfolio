@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./partials/header'); %>
+  <body>
+    <%- include('./partials/navbar'); %>
+    
+    <div class="card">
+      <div class="card-header">
+        <h1 class="display-5 fw-bold lh-1 mb-3 text-center">Contact Me</h1>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Contact Information</h5>
+        <p class="card-text">Name: Neel Patel</p>
+        <p class="card-text">Phone Number: +1 (437) 993-0205</p>
+        <p class="card-text">Email Address: nppatel8055@gmail.com</p>
+      </div>
+    </div>
+
+    <br></br>
+    
+    <div class="card">
+      <div class="card-header">
+        <h3 class="text-center">You can also get in touch with me by submitting below form....</h3>
+      </div>
+      <div class="card-body">
+        <form>
+          <div class="row">
+            <div class="col">
+              <label>First Name</label>
+              <input type="text" required="true" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+              <label>Last Name</label>
+              <input type="text" required="true" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label>Phone Number</label>
+              <input type="text" required="true" class="form-control" placeholder="Phone Number">
+            </div>
+            <div class="col">
+              <label>Email Address</label>
+              <input type="text" required="true" class="form-control" placeholder="Email Address">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label>Message</label>
+              <textarea required="true" cols="10" rows="5" class="form-control" placeholder="Message..."></textarea> 
+            </div>
+        </div>
+        <div class="text-center mt-2">
+            <button type="submit" class="btn btn-primary" >Submit</button>
+        </div>
+        </form>
+      </div>
+    </div>
+    
+    <%- include('./partials/footer'); %>
+
+  </body>
+</html>
